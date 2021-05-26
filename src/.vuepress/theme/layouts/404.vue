@@ -47,7 +47,7 @@ img
 .number
   margin 0 auto
   color lightpink
-  font-size 2rem
+  font-size 3rem
   text-shadow 5px 1px 5px gold
   transform translate3d(3px,-3px,-200px) rotateX(-9deg) rotateY(-22deg)
 
