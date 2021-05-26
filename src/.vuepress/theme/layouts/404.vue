@@ -9,7 +9,7 @@
       <p class="content">
         Hm,the page you were looking for doesn't seem to exist anymore :(
       </p>
-      <button class="back" @click="reback">Back Home</button>
+      <button class="back" @click="reback">Back to Home</button>
     </div>
   </div>
 </template>
@@ -18,7 +18,7 @@
 export default {
   methods: {
     reback() {
-      alert("go home");
+      alert("todo:redirect");
     },
   },
 };
@@ -27,7 +27,12 @@ export default {
 <style lang="stylus">
 @import "../styles/responsive.styl"
 
-#app
+body
+  margin 0
+  // 去除滚动条
+  overflow hidden
+
+body #app
   margin 0
 
 img
@@ -39,10 +44,9 @@ img
   position fixed
   top 50%
   left 50%
-  transform translateX(-50%)
-  // transform translateY(-50%)
+  transform translate(-50%,-50%)
   perspective 31.25rem
-  // perspective-origin 50% 50%
+  perspective-origin 50% 50%
 
 .number
   margin 0 auto
