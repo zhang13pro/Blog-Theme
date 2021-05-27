@@ -32,9 +32,6 @@ body
   // 去除滚动条
   overflow hidden
 
-body #app
-  margin 0
-
 img
   height: 100vh;
   width: 100vw;
@@ -58,7 +55,6 @@ img
 .content
   margin .625rem 0 0
   color lightpink
-  font-family Times New Roman
   transform translate3d(3px,-3px,-100px) rotateX(-9deg) rotateY(-22deg)
 
 .back
