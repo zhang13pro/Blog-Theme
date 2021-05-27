@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Nopage />
-    <!-- <img alt="Vue logo" src="./assets/logo.png" width="25%" /> -->
   </div>
 </template>
 
@@ -22,7 +21,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #2a86e2;
 }
 </style>
